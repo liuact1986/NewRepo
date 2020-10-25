@@ -1,5 +1,5 @@
 """
-Django settings for DjangoWebProjectLearn project.
+Django settings for DjangoWebProjectTest1 project.
 
 Based on 'django-admin startproject' using Django 2.1.2.
 
@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '3ec879e9-ec8c-43aa-b012-6cd06b8f4e50'
+SECRET_KEY = 'd1582c15-b618-49b3-9478-7f384a40d37d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjangoWebProjectLearn.urls'
+ROOT_URLCONF = 'DjangoWebProjectTest1.urls'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjangoWebProjectLearn.wsgi.application'
+WSGI_APPLICATION = 'DjangoWebProjectTest1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 DATABASES = {

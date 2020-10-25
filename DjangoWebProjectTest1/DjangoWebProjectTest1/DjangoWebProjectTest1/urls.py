@@ -1,5 +1,5 @@
 """
-Definition of urls for DjangoWebProjectLearn.
+Definition of urls for DjangoWebProjectTest1.
 """
 
 from datetime import datetime
